@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(offf.jpg);
+  background-image: url(admin2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -62,6 +62,7 @@ input[type=submit]{
 input[type=submit]:hover{
    background-color: #ce2929;
    cursor: pointer;
+   color: white;
 }
 .login h2{
   text-align: left;
