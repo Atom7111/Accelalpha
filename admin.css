@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+}
+section{
+  margin: 0;
+  padding: 0;
+  background-image: url(admin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Logo */
+.nav img{
+  width: 15%;
+  padding: 10px 20px;
+  float: left;
+}
+/* right nav */
+.nav{
+  float: left;
+}
+ul{
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  padding-top: 20px;
+  padding-right:  20px;
+  float: right;
+}
+li{
+  display: inline;
+}
+a{
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+  color: black;
+}
+
+/* Motto */
+.motto{
+  font-family: montserrat;
+  font-size: 70px;
+  padding-left: 40px;
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+button{
+  margin-left:40px;
+  width: 150px;
+  border-radius: 40px;
+  padding: 10px;
+  border-color: white;
+  background-color: transparent;
+  border-style: solid;
+  margin-bottom: 60px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+button:hover{
+  background-color: white;
+  color:  #ce2929;
+}

@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(offf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo{
+  width: 100%;
+  padding-left: 10px;
+  /* padding-bottom: 50px; */
+}
+.login {
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform:  translate(-50%,-50%);
+  box-sizing: border-box;
+}
+.login h1{
+  text-align: center;
+  font-family: montserrat;
+  color: white;
+}
+.login h3{
+  text-align: left;
+  font-family: calibri;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 5px;
+}
+input{
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+
+}
+input[type=text]{
+    opacity: .8;
+    border-radius: 5px;
+    border: 0;
+}
+input[type=password]{
+    opacity: .8;
+    border-radius: 5px;
+    border: 0;
+}
+input[type=submit]{
+  width: 100px;
+  font-family: calibri;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+input[type=submit]:hover{
+   background-color: #ce2929;
+   cursor: pointer;
+}
+.login h2{
+  text-align: left;
+  font-family: calibri;
+  color: white;
+  font-size: 20px;
+}
+.new{
+  padding-top: 10px;
+}
+span{
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: #ce2929;
+}

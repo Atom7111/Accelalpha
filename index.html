@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Accelalpha</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="icon" type="image/x-icon" href="logo-01-01.png">
+  <script>
+    function validateform() {
+      var username = document.form.username.value;
+      var password = document.form.password.value;
+
+      if (!(username == "Siddanthan" || username == "siddanthan")) {
+        alert("Username not found ");
+        return false;
+      }else if (!(password =="@Atomsidd7111")){
+          alert("password is wrong");
+          return false;
+        }
+    }
+  </script>
+</head>
+
+<body>
+  <form name="form" class="" action="admin.html" method="post" onsubmit="return validateform()">
+    <div class="login">
+      <img class="logo" src="accel.png" alt="">
+      <h3>USERNAME</h3>
+      <input type="text" name="username" placeholder="Username">
+      <h3>PASSWORD</h3>
+      <input type="password" name="password" placeholder="********">
+      <input type="submit" value="Login">
+      <div class="new">
+        <span>New User?</span>
+        <a href="register.html">Register</a>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
